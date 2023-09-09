@@ -1,3 +1,4 @@
+/*this is what the main structure of a C program should look like*/
 #include <stdio.h>
 int main() {
 
