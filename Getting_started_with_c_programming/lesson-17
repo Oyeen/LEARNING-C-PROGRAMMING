@@ -1,0 +1,49 @@
+//STANDARD LIBRARY FUNCTIONS//
+
+/*standard library function is a predefined function and can be directly use them in our program.
+it is always included in the stdio.h file*/
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    
+    /*int num = 100;
+printf("Square root%lf", sqrt(num));*/
+    
+    /*int num = 125;
+    printf("Cube root %lf", cbrt(num));*/
+    
+    /*int a = 3;
+    int b = 5;
+    
+    double result = pow(a,b);
+    printf("Power: %lf", result);*/
+    
+/*char alphabet = 'd';
+char upper = toupper(alphabet);
+printf("%c", upper);
+
+char lower = tolower(alphabet);
+printf("\n%c", lower);*/
+
+// Examples of standard library functions//
+    
+    double num;
+    
+    printf("Enter a number: ");
+    scanf("%lf", &num);
+    
+    double square = sqrt(num);
+    double power = pow(num, square);
+    
+    printf("The result is: %.2lf", power);
+    
+    
+    
+    
+    
+    
+    return 0;
+}
+
