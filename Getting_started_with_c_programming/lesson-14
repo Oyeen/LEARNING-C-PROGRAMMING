@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    while (1) {
+        int number;
+        printf("\nenter a number:");
+        scanf("%d", &number);
+        
+        if (number <0 && number % 2 !=0) {
+            printf("%d", number);
+        }
+        
+        else if (number >=0) {
+            printf("positive value");
+            break;
+        }
+        
+        else {
+            printf("negative even");
+            continue;
+        }
+        
+    }
+
+    return 0;
+}
